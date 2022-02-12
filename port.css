@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 98%;
+    min-height: 30px;
+    
+    display: flex;
+    margin-left: 0;
+    padding-left: 30px;
+   justify-content: space-between;
+    background-image:linear-gradient(to right, #FC4F4F, #F76E11);
+    align-items: center;
+   
+}
+.navbar ul{
+
+
+
+   list-style: none;
+  margin: 0 60px;
+
+
+}
+.navbar ul li{
+    
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.navbar ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid black;
+}
+.top-container{
+   align-items: center;
+
+display:grid;
+grid-template-columns: repeat(2,1fr);
+ background-color: #FEE3EC;
+ padding: 10px 0;
+ margin: auto;
+}
+.top-container img{
+    margin: 30px 80px 30px 300px;
+}
+
+.top-container_content{
+   margin-left: 150px;
+}
+.top-container_content h1{
+    font-size: 3rem;
+}
+.middle-container{
+ display: flex;
+ text-align: center;
+ align-items: center;
+margin: 50px 100px;
+position: relative;
+}
+.lower-container{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin: 50px 100px;
+    position: relative;
+    padding: 50px 30px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: #eddfed;
+}
+.edu{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+   margin-left: 200px;
+    border-radius: 100px;
+}
+.edu_content{
+   text-align: left;
+position: absolute;
+left: 700px;
+line-height: 1.5rem;
+background-color: #FBE5E5;
+padding: 20px;
+border-radius: 25px;
+  }
+  p{
+      margin: 10px 0;
+  }
+  .hob{
+      width: 200px;
+      height: 200px;
+     position: absolute;
+     left: 800px;
+
+  }
+  .hob_content{
+    text-align: right;
+   align-items: center;
+    line-height: 1.5rem;
+    
+  }
+  .last{
+      text-align: center;
+      margin: 50px 0;
+  }
+  button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    overflow:hidden;
+ }
+
+ @media only screen and (max-width:768px){
+    .navbar{
+        width: 96%;
+        min-height: 30px;
+       display: flex;
+        margin: auto;
+        padding-left: 30px;
+       justify-content: space-between;
+        background-image:linear-gradient(to right, #FC4F4F, #F76E11);
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }    
+    .top-container{
+        align-items: center;
+     width: 100%;
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+      background-color: #FEE3EC;
+      padding: 10px 0;
+      margin: 0;
+    }
+
+   
+  .top-container img{
+      width: 300px;
+      height: 300px;
+      margin-left: 40px;
+  }
+  .top-container_content{
+      margin-left: 30px;
+      font-size: 1rem;
+  }
+  .top-container_content h1{
+      font-size: 1.5rem;
+  }
+  .middle-container{
+     
+      margin-top: 100px;
+  }
+  .edu{
+  margin:0 10px 0 10px;
+  }
+  .edu_content{
+      left: 250px;
+  }
+  .lower-container{
+      padding-right: 230px;
+      margin-top: 100px;
+  }
+  .hob{
+      left:300px;
+      text-align: center;
+      align-items: center;
+  }
+  .hob_content{
+      padding-right: 100px;
+      padding-left: 5px;
+      text-align: left;
+  }
+ }
+
+ /* for  my mobile devices
+
+ @media only screen and (max-width:165px){
+    .navbar{
+        width: 100%;
+        min-height: 30px;
+       display: flex;
+        margin: auto;
+        padding-left: 30px;
+       justify-content: space-between;
+        background-image:linear-gradient(to right, #FC4F4F, #F76E11);
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }    
+    .top-container{
+        align-items: center;
+     width: 200%;
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+      background-color: #FEE3EC;
+      padding: 10px 0;
+      margin: 0;
+    }
+
+   
+  .top-container img{
+      width: 50px;
+      height: 50px;
+      margin-left: 40px;
+  }
+  .top-container_content{
+      margin-left: 30px;
+      font-size: 1rem;
+  }
+  .top-container_content h1{
+      font-size: 1.5rem;
+  }
+  .middle-container{
+     
+      margin-top: 100px;
+  }
+  .edu{
+  margin:0 10px 0 10px;
+  }
+  .edu_content{
+      left: 250px;
+  }
+  .lower-container{
+      padding-right: 230px;
+      margin-top: 100px;
+  }
+  .hob{
+      left:300px;
+      text-align: center;
+      align-items: center;
+  }
+  .hob_content{
+      padding-right: 100px;
+      padding-left: 5px;
+      text-align: left;
+  }
+ }
+ */
